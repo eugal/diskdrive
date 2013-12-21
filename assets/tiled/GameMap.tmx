@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="160" height="120" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tileset1" tilewidth="16" tileheight="16">
+  <image source="tileset1.png" trans="ffffff" width="256" height="512"/>
+ </tileset>
+ <layer name="background" width="160" height="120">
+  <properties>
+   <property name="nocollide" value="true"/>
+   <property name="tileset" value="tileset1"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt3c9q1FAYhvFT24LYhS5cFLpQpnWhG2Va1wqCpSsX7VqFFlx6DVVvwD83MCpIdakX6Ck0GA6ZycwxJ++XfM/iR4Y200nne8iUSZM5WgvhCAAAAAAAAAAAAAAAAEDYCvptgF87K/a31rL+C3qG0Cv6gxD9+fYr/KN4/Lf058Ikznk32ovuJbfT79Xvd33FPtKfdRyd1JaLHgvjNY2z3o8OosfJ7fR7XT7OaXRWW3b5WBi+J8LXXgAYqk32myjoBn1hQNgfIsca3aCgi4y+NmgSHcnpL5X+LchrLfr2Mjb3mu4gUvX3YwXqbQYAACGs85oMI2gRfeG8JSitet4SAADoHseX0ZebsbVb9AaRO7G9u/QHkYexvUf0h0zV+brpcpLcTs/1bVpnN/ma+neDfdX5uulymtxOz/VtWmc/+Zr6d0M/Jg3XHmij3maMx7Th2gNt1NsM3z7GBj/RIUToD0qz2N7XpL8uzmXi2Icvt0Oe2VV/9a9dZP4si9Rz8aLL/sZEPRcv+uxv00BX9GdLn/0NiXouXljtb4P+XMidz/voQ8czXxc3R3/D6e9z9KXQ7Lfozw2L/e3Qnxu58/kWfTfQCf0NW9NzX11LSN0A/Y1fH/09r1F3RX+2ND332zXzOlrGefQu434WOlXPxYuSM2zqT90V/dnSR3/qlujPrpIzrP5HUN0S/dlVcoazMNxjxOq5eJE7n+q6BYvWKXGMjv7GJXc+1XULFq1T8hgJ/Y1D7nyq6xaU7u+Q/kYtdz6Xnw38lP4g6m8ZXRwjpr9xKznD39EfUT/0NwwlZ3geeP8Zuv54/xnK/maB95+h64/9Hyz2N4TzgNVz8aLkDGeB11+Mv78S7xGq5+LFGPorQT0XL+iP/ujPHvVcvKA/+qM/e9Rz8YL+6I/+ltfX/2Op5+LF0Prri3ouXtAf/Xnpb951PSxSz8UL5YwtX2dLPRcvLPW3HezsI9Vz8UK9n7FKPRcv1HO2Sj0XL9Rztko9Fy/+d07PGqjbob/hUM953uwtbAPoj/7GTT1n+vNNPWf68009Z/rzLXc+JT+jjf78yJ1Pyc9ooz8/5j3/P8Wzpz8f1HO2Sj0XL9Rztko9Fy8mYXXH0Ultuez9dqO9q2WbPfpzYRpWdxqd1ZbL3m8/OrhatjmgPxcUs33TQv3aS3/j7q+tS/V20B/9qann4kX6vB+G5c7xLvX+IP35Mq8/1ee+0J8vTf0p505/vtAf/dEf/XnVVX9d/c1If7501V+9wRT9oY/+ulD1FzctXAu6YyTquXgxbx+m7k9NPRcvLp/r+4kHDbcXLZdZJ123bT368+Evg4nrIA==
+  </data>
+ </layer>
+ <layer name="forground" width="160" height="120">
+  <properties>
+   <property name="tileset" value="tileset1"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt3Vtu2zAQhWG/dwldgbMCJyuI3WYBTZoF9JL9v5ZCS4AVRN040hyP/g8golpyNMAckL4o6vl0Op2FB2Kjx/BE/uCJ/MET+YMnlfx1dTykcUnjMY2nk05t2I5yj5Vrgw3lHivXBhvKPVauDTaW9vhLGl/TeFmxvXVtuD9Le/wrjd9pfKzY3ro23B/lHivXBhvKPVauDTaUe6xcG2wo91i5Nthoef+7xfEl8hff0h6/pfE9jfeNji89rngO7kvL5y9bHF9i/otP+fNn5r/4Wtbfpdtb14b7w/cf8KTcY+XaYEO5x8q1wYZyj5Vrgw3lHivXBhvKPVauDTaUe6xcG2wo91i5NthQ7rFybbDxnMY1jVuxXT7W31d7bOj3zX1ubZv8xWd9n6rLwsH9r45NucfKtcGGco+Va4MN5R4r1wYbyj1Wrg02LHqc30vk+1ZZIX/xqfW4qydnWa022FPrcXnNvVptsOfZ46Fznyf2IxbPHndzXf/7Fua/Y1HusXJtsKHcY+XaYEO5x8q1wcbaHn9L49WykAHkL761Pf6Rxk/LQgaQv/ha5z+re20MIX/xtc5/VvfaGEL+4lvT4/I5VvfamDoPYmrNH+svWrTmj/UXLVh/4ak1f1a/c8vfA10e+Zt7TvIX3xb5m7pv7tz76pK/+FrzN/S349eJ50/tHzoPYvLo8dz8zT0O98sjf3PPSf7i88jf3Nd/5C8+1l94Kv92N4+xfUtGvkZmzrG18yC259P/71uvE/uWjHyNzJxja+dBbLfpQ9zw+Ut8yj1Wrg02lF9jkb/4lF9jkb/4lHusXBtssP7CE+svPCn3WLk22GD9hSfWX3hS7rFybbCxx/q7NkfkL7491t+1GSd/8e3RY/KHmj3WX/KHGtZfeGL9hSfWX3hi/YUn1l94Yv2Fpz3WX77/QM0ePSZ/qBlbGz/tcI4x5C++sfX3s9E5mP9Qw/tfeOL6K3ji82d4yvee6np9K0b/3924/nt86Gfefih+5vtf5WPKfeX/UXMeGYit3++n099Mdj/L7D0Uo/b4pXdMvv9Vmem8v8xWme9b5RjExN+/wRP5gyfyB0/kD57IHzyRP3gif/BE/uCJ/MET+YMn8gdPyvlTrg02lHusXBtsKPe4u57mZfIo3DPl/r6l8e5dBDb16l3AiO76wQ/vIrCpy4yRr0fN1zP35cennr90W/ne6LCx5PVfvp557uMtallHLKo93iLT0KOaP+a/Y1DtMfPfMdy8C6hg/jsG1fwx/x2Dav6Y/45BtcfMf8egmj/mv2NQ7THz3zHw+g+euvyV37kOfQ87tq/1O97aNvPfMfwBBYK/ig==
+  </data>
+ </layer>
+ <objectgroup name="player_start" width="160" height="120">
+  <object name="p1_start" type="player_start" x="208" y="1840" width="48" height="48"/>
+ </objectgroup>
+ <objectgroup name="switch" width="160" height="120">
+  <object name="switch1" type="switcher1" x="224" y="1600" width="16" height="32"/>
+  <object name="switch2" type="switcher2" x="112" y="1344" width="16" height="32"/>
+  <object name="switch3" type="switcher3" x="592" y="896" width="16" height="32"/>
+  <object name="switch5" type="switcher5" x="304" y="224" width="16" height="32"/>
+  <object name="switch4" type="switcher4" x="528" y="560" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup name="killer" width="160" height="120">
+  <object name="killer1" type="killer" x="272" y="1680" width="352" height="32"/>
+  <object name="killer2" type="killer" x="0" y="1680" width="208" height="32"/>
+  <object name="killer3" type="killer" x="368" y="1152" width="32" height="272"/>
+  <object name="killer4" type="killer" x="368" y="976" width="32" height="80"/>
+  <object name="killer5" type="killer" x="224" y="752" width="32" height="128"/>
+  <object name="killer6" type="killer" x="16" y="720" width="208" height="32"/>
+  <object name="killer7" type="killer" x="256" y="688" width="160" height="32"/>
+  <object name="killer8" type="killer" x="480" y="688" width="144" height="32"/>
+  <object name="killerend" type="killer" x="640" y="0" width="16" height="80"/>
+  <object name="killer9" type="killer" x="16" y="304" width="176" height="32"/>
+  <object name="killer10" type="killer" x="432" y="304" width="64" height="32"/>
+  <object name="killer11" type="killer" x="560" y="304" width="64" height="32"/>
+ </objectgroup>
+ <objectgroup name="platforms" width="160" height="120">
+  <object name="platform1" type="platform" x="496" y="1440" width="32" height="16">
+   <properties>
+    <property name="platformType" value="oneway"/>
+   </properties>
+  </object>
+  <object name="platform2" type="platform" x="80" y="960" width="32" height="16">
+   <properties>
+    <property name="platformType" value="oneway"/>
+   </properties>
+  </object>
+  <object name="platform3" type="platform" x="288" y="480" width="32" height="16">
+   <properties>
+    <property name="platformType" value="oneway"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="killerdoor" width="160" height="120">
+  <object name="killerdoor1" type="killerdoor1" x="208" y="1680" width="64" height="32"/>
+  <object name="killerdoor2" type="killerdoor2" x="368" y="1072" width="32" height="80"/>
+  <object name="killerdoor3" type="killerdoor3" x="224" y="880" width="32" height="64"/>
+  <object name="killerdoor4" type="killerdoor4" x="416" y="688" width="64" height="32"/>
+  <object name="killerdoor5" type="killerdoor5" x="496" y="304" width="64" height="32"/>
+ </objectgroup>
+</map>
