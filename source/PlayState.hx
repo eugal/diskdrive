@@ -144,11 +144,13 @@ class PlayState extends FlxState {
 		killerDoor1.kill();
 		s.kill();
 		FlxG.play("HitSwitch");
+		FlxG.playMusic("2");
 	}
 	public function doorKill2(b:Bullet, s:Switch):Void{
 		killerDoor2.kill();
 		s.kill();
 		FlxG.play("HitSwitch");
+		FlxG.playMusic("3");
 	}
 	public function doorKill3(b:Bullet, s:Switch):Void{
 		killerDoor3.kill();
@@ -164,19 +166,20 @@ class PlayState extends FlxState {
 		killerDoor5.kill();
 		s.kill();
 		FlxG.play("HitSwitch");
+		FlxG.playMusic("4");
 	}
 //player kill from door
 	public function doorKillPlayer1(p:Player, k:KillerDoor):Void{
 		FlxG.play("ended");
 		p.kill();
 		FlxG.switchState(new EndState());
-		FlxG.playMusic("2");
+		
 	}
 	public function doorKillPlayer2(p:Player, k:KillerDoor):Void{
 		FlxG.play("ended");
 		p.kill();
 		FlxG.switchState(new EndState());
-		FlxG.playMusic("3");
+		
 	}
 	public function doorKillPlayer3(p:Player, k:KillerDoor):Void{
 		FlxG.play("ended");
@@ -187,7 +190,7 @@ class PlayState extends FlxState {
 		FlxG.play("ended");
 		p.kill();
 		FlxG.switchState(new EndState());
-		FlxG.playMusic("4");
+		
 	}
 	public function doorKillPlayer5(p:Player, k:KillerDoor):Void{
 		FlxG.play("ended");
